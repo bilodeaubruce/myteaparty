@@ -1,0 +1,149 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: #000;
+  opacity:0.9;
+  text-align: center;
+}
+h4, h2, h1, h3, h4  {
+  margin: 0;
+  display: block;
+  padding: 0px;
+}
+p {
+  padding: 15px;
+}
+
+.container {
+  max-width: 1400px;
+  display: flex;
+  margin: 50px auto 0 auto;
+  align-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 1400px;
+  height:69px;
+  padding-top: 30px;
+  background-color: black;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 9px;
+}
+nav {
+  display: flex;
+  padding-right: 10px;
+
+}
+nav li {
+  display: inline;
+}
+nav li a ,a {
+  color:seashell;
+  padding-left: 15px;
+  text-decoration: underline;
+}
+#mission {
+  margin: 35px auto;
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 770px;
+  max-width: 1200px;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+
+}
+.mistext {
+  background-color: black;
+  width: 1200px;
+  padding: 10px 0px;
+  margin: 0 auto;
+  }
+
+.teaofthemonth{
+    background-color: black;
+    width: 1000px;
+    margin: 100px auto 0px auto;
+  }
+  .gallery3 {
+    max-width: 1000px;
+    margin: 30px auto 50px auto;
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+  }
+  .gallery2 {
+    max-width: 1000px;
+    margin: 0px auto 0 auto;
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: : 10px;
+    flex-wrap: nowrap;
+  }
+  .pic {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+  }
+  .pic2 {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+  }
+
+  #locations {
+    margin: 100px auto 0px auto;
+    padding-top: 100px;
+    height: 700px;
+    max-width: 1200px;
+    background-repeat: no-repeat;
+
+    background-image: url("../images/img-locations-background.jpg");
+  }
+.row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+}
+
+
+.text {
+  width: 300px;
+  padding:10px;
+  margin-left: 40px;
+  background-color: black;
+  opacity: 0.9;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact {
+  height: 200px;
+  background-color: black;
+}
+
+footer {
+  font-size: small;
+  max-width: 1400px;
+  text-align: left;
+  padding-left: 20px;
+
+}
